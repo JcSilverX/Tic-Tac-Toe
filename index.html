@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Tic Tac Toe</title>
+    
+        <link rel="stylesheet" href="style.css">
+        <script defer src="app.js"></script>
+    </head>
+    <body class="page">
+        
+        <div class="page__app">
+            <main class="main-content content-grid">
+                <section class="game">
+                    <div class="game-wrapper">
+                        <div class="game__playerX">
+                            <span class="x">X</span>
+                        </div>
+                        <div class="game__playerO">
+                            <span class="o">O</span>
+                        </div>
+
+                    </div>
+                    <div class="game-board">
+                        <button type="button" class="game-board__item btn" data-jsx-btn="item" value="0"></button>
+                        <button type="button" class="game-board__item btn" data-jsx-btn="item" value="1"></button>
+                        <button type="button" class="game-board__item btn" data-jsx-btn="item" value="2"></button>
+                        <button type="button" class="game-board__item btn" data-jsx-btn="item" value="3"></button>
+                        <button type="button" class="game-board__item btn" data-jsx-btn="item" value="4"></button>
+                        <button type="button" class="game-board__item btn" data-jsx-btn="item" value="5"></button>
+                        <button type="button" class="game-board__item btn" data-jsx-btn="item" value="6"></button>
+                        <button type="button" class="game-board__item btn" data-jsx-btn="item" value="7"></button>
+                        <button type="button" class="game-board__item btn" data-jsx-btn="item" value="8"></button>
+                    </div>
+                </section>
+
+                <section class="winner">
+                    <div class="winner__content">
+                        <span class="winner__message"></span>
+                        <span class="winner__description"></span>
+                        <button type="button" class="winner__btn btn" data-jsx-btn="restart">RESTART</button>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="copyright">
+                    &copy;
+                    2023 Copyright
+                    <a href="#!">JcSilverX</a>
+                </div>
+            </footer>
+        </div>
+
+    </body>
+</html>
